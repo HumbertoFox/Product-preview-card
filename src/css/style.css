@@ -87,6 +87,7 @@ body .main .section-card .section-information .btn-cart {
     color: var(--White);
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    transition: .3s ease-in-out;
 }
 body .main .section-card .section-information .btn-cart:hover {
     background-color: var(--Dark-cyan-black);
