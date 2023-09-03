@@ -1,7 +1,6 @@
 @media (max-width: 768px) {
     body .main {
         width: 375px;
-        box-shadow: none;
     }
     body .main .section-card {
         flex-direction: column;
