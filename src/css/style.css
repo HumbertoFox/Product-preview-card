@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--Cream);
+}
+body .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 80px var(--Dark-grayish-blue);
+    width: 1440px;
+    height: 800px;
+}
+body .main .section-card {
+    display: flex;
+    width: 600px;
+    border-radius: 10px;
+    background-color: var(--White);
+    gap: 34px;
+}
+body .main .section-card .picture-img {
+    width: 300px;
+    flex-shrink: 0;
+}
+body .main .section-card .picture-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+body .main .section-card .section-information {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 30px;
+    gap: 22px;
+}
+body .main .section-card .section-information .product {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: var(--Dark-grayish-blue);
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-left: -2px;
+}
+body .main .section-card .section-information .name-perfume {
+    margin: 0 50px 0 0px;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 700;
+}
+body .main .section-card .section-information .description {
+    margin-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: var(--Dark-grayish-blue);
+    line-height: 25px;
+    font-weight: 500;
+}
+body .main .section-card .section-information .prices {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+body .main .section-card .section-information .price-promotion {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: var(--Dark-cyan);
+}
+body .main .section-card .section-information .price-normal {
+    color: var(--Dark-grayish-blue);
+    text-decoration: line-through;
+}
+body .main .section-card .section-information .btn-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 235px;
+    height: 50px;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+body .main .section-card .section-information .btn-cart:hover {
+    background-color: var(--Dark-cyan-black);
+    cursor: pointer;
+}
+body .main .section-card .section-information .btn-cart .icon-cart {
+    width: 17px;
+}
+body .main .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+body .main .attribution a {
+    color: hsl(228, 45%, 44%);
+}

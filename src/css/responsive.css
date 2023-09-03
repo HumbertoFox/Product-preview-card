@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    body .main {
+        width: 375px;
+        box-shadow: none;
+    }
+    body .main .section-card {
+        flex-direction: column;
+        width: 342px;
+        gap: 4px;
+    }
+    body .main .section-card .picture-img {
+        width: 342px;
+        height: 240px;
+    }
+    body .main .section-card .picture-img img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    body .main .section-card .section-information {
+        margin: 20px 25px;
+        gap: 10px;
+    }
+    body .main .section-card .section-information .name-perfume {
+        margin: 0;
+        font-size: 32px;
+    }
+    body .main .section-card .section-information .description {
+        margin: 0;
+    }
+    body .main .section-card .section-information .prices {
+        margin: 10px 0 7px;
+        gap: 25px;
+    }
+    body .main .section-card .section-information .btn-cart {
+        width: 295px;
+    }
+}
