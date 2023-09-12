@@ -81,6 +81,7 @@ body .main .section-card .section-information .btn-cart {
     height: 50px;
     gap: 10px;
     border-radius: 10px;
+    cursor: url(../images/pointer.svg), auto;
     border: none;
     background-color: var(--Dark-cyan);
     color: var(--White);
@@ -90,7 +91,6 @@ body .main .section-card .section-information .btn-cart {
 }
 body .main .section-card .section-information .btn-cart:hover {
     background-color: var(--Dark-cyan-black);
-    cursor: pointer;
 }
 body .main .section-card .section-information .btn-cart .icon-cart {
     width: 17px;
