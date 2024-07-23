@@ -1,59 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
   <title>Frontend Mentor | Product preview card component</title>
-  <link rel="stylesheet" href="src/css/reset.css">
-  <link rel="stylesheet" href="src/css/style.css">
-  <link rel="stylesheet" href="src/css/responsive.css">
-  <link rel="stylesheet" href="src/css/variable.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
+  <link rel="stylesheet" href="./src/css/variable.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
-
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
   <main class="main">
-    <section class="section-card">
+    <div class="section-card">
       <picture class="picture-img">
         <source media="(max-width: 768px)" srcset="src/images/image-product-mobile.jpg">
         <img src="src/images/image-product-desktop.jpg" alt="Image Perfume">
       </picture>
       <section class="section-information">
-        <h2 class="product">
-          Perfume
-        </h2>
-        <h1 class="name-perfume">
-          Gabrielle Essence Eau De Parfum
-        </h1>
-        <p class="description">
+        <h2>Perfume</h2>
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+        <p>
           A floral, solar and voluptuous interpretation composed by Olivier Polge,
           Perfumer-Creator for the House of CHANEL.
         </p>
         <div class="prices">
           <div class="price-promotion">
-            $149.99
+            <span>$149.99</span>
           </div>
           <div class="price-normal">
-            $169.99
+            <span>$169.99</span>
           </div>
         </div>
         <button class="btn-cart" type="button">
-          <img class="icon-cart" src="src/images/icon-cart.svg" alt="Icpne cart">
+          <img class="icon-cart" src="./src/images/icon-cart.svg" alt="Icone cart">
           Add to Cart
         </button>
       </section>
-    </section>
+    </div>
     <footer class="attribution">
       <div>
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      </div>
-      <div>
-        Coded by <a href="https://www.linkedin.com/in/humberto-ribeiro-sales/" target="_blank">Humberto Ribeiro</a>.
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" rel="noopener" target="_blank">Frontend
+          Mentor</a>.
+        Coded by <a href="https://www.linkedin.com/in/humberto-ribeiro-sales/" rel="noopener" target="_blank">Humberto
+          Ribeiro</a>.
       </div>
     </footer>
   </main>

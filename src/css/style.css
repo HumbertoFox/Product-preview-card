@@ -1,104 +1,127 @@
 body {
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background-color: var(--Cream);
 }
-body .main {
+
+.main {
+    width: 1440px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 1440px;
-    height: 800px;
+    background-color: var(--Cream);
 }
-body .main .section-card {
-    display: flex;
+
+.section-card {
     width: 600px;
-    border-radius: 10px;
+    height: 452px;
+    display: flex;
+    gap: 32px;
     background-color: var(--White);
-    gap: 34px;
+    border-radius: 10px;
 }
-body .main .section-card .picture-img {
-    width: 300px;
+
+.picture-img {
+    width: 50%;
+    height: 100%;
     flex-shrink: 0;
 }
-body .main .section-card .picture-img img {
+
+.picture-img img {
     width: 100%;
     height: 100%;
     border-radius: 10px 0 0 10px;
 }
-body .main .section-card .section-information {
+
+.section-information {
     display: flex;
     flex-direction: column;
-    margin: 30px 0 30px;
-    gap: 22px;
+    padding: 32px 0 29px 0;
+    gap: 21px;
 }
-body .main .section-card .section-information .product {
+
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     color: var(--Dark-grayish-blue);
     font-weight: 500;
-    letter-spacing: 4px;
+    letter-spacing: 4.1px;
     text-transform: uppercase;
-    margin-left: -2px;
 }
-body .main .section-card .section-information .name-perfume {
-    margin: 0 50px 0 0px;
+
+h1 {
     font-family: 'Fraunces', serif;
-    font-size: 30px;
-    line-height: 32px;
+    font-size: 32px;
     font-weight: 700;
+    line-height: 32px;
+    padding-right: 50px;
+    padding-bottom: 3px;
 }
-body .main .section-card .section-information .description {
-    margin-right: 40px;
+
+p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: var(--Dark-grayish-blue);
-    line-height: 25px;
+    line-height: 23px;
     font-weight: 500;
+    padding-right: 40px;
+    padding-bottom: 4px;
 }
-body .main .section-card .section-information .prices {
+
+.prices {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 19px;
 }
-body .main .section-card .section-information .price-promotion {
+
+.price-promotion {
     font-family: 'Fraunces', serif;
-    font-size: 30px;
+    font-size: 32px;
     color: var(--Dark-cyan);
 }
-body .main .section-card .section-information .price-normal {
+
+.price-normal {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
     color: var(--Dark-grayish-blue);
     text-decoration: line-through;
 }
-body .main .section-card .section-information .btn-cart {
+
+.btn-cart {
+    width: 237px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 235px;
-    height: 50px;
-    gap: 10px;
-    border-radius: 10px;
-    cursor: url(../images/pointer.svg), auto;
-    border: none;
+    gap: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: .3px;
     background-color: var(--Dark-cyan);
     color: var(--White);
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    border: none;
+    cursor: url(../images/pointer.svg), auto;
+    border-radius: 10px;
     transition: .3s ease-in-out;
+    margin-top: 5px;
 }
-body .main .section-card .section-information .btn-cart:hover {
+
+.btn-cart:hover {
     background-color: var(--Dark-cyan-black);
 }
-body .main .section-card .section-information .btn-cart .icon-cart {
-    width: 17px;
+
+.icon-cart {
+    width: 16px;
 }
-body .main .attribution {
+
+.attribution {
     font-size: 11px;
     text-align: center;
 }
-body .main .attribution a {
+
+.attribution a {
     color: hsl(228, 45%, 44%);
 }
